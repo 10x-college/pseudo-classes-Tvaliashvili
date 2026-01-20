@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+            rel="stylesheet"
+        />
+        <title>POS/MENU</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="left-side">
+                    <div class="logo">
+                        <span style="color: #3d8493">P</span
+                        ><span style="color: #d89f65">O</span
+                        ><span style="color: #4a5c2f">S</span>
+                    </div>
+                    <div class="search-bar">
+                        <input
+                            type="text"
+                            id="search"
+                            placeholder="მოძებნე პროდუქტი ან ნებისმიერი შეკვეთა..."
+                        />
+                    </div>
+                </div>
+                <div class="right-side">
+                    <div class="date-icon">📅</div>
+                    <div class="date">
+                        <rect
+                            x="3"
+                            y="4"
+                            width="18"
+                            height="18"
+                            rx="2"
+                            ry="2"
+                        ></rect>
+                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                        <span id="pos-clock">იტვირთება...</span>
+                    </div>
+                    <button>
+                        <a href="#" class="table-button">
+                            <p>⊕ მაგიდის დამატება</p>
+                        </a>
+                    </button>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <div class="food-container">
+                    <div class="dish food-1">
+                        <div class="add"><a href="#">დამატება</a></div>
+                        <div class="img-container">
+                            <img src="./Images/ხინკალი.jpg" alt="ხინკალი" />
+                        </div>
+                        <div class="description">
+                            <p class="name">ხინკალი</p>
+                            <p class="brief">კატეგორია: 🌾🌶️</p>
+                        </div>
+                    </div>
+                    <div class="dish food-2">
+                        <div class="add"><a href="#">დამატება</a></div>
+                        <div class="img-container">
+                            <img
+                                src="./Images/აჭარული ხაჭაპური.jpg"
+                                alt="აჭარული ხაჭაპური"
+                            />
+                        </div>
+                        <div class="description">
+                            <p class="name">აჭარული ხაჭაპური</p>
+                            <p class="brief">კატეგორია: 🌾🍶🌿🥚</p>
+                        </div>
+                    </div>
+                    <div class="dish food-3">
+                        <div class="add"><a href="#">დამატება</a></div>
+                        <div class="img-container">
+                            <img src="./Images/მწვადი.jpg" alt="მწვადი" />
+                        </div>
+                        <div class="description">
+                            <p class="name">მწვადი</p>
+                            <p class="brief">კატეგორია: 🥩🌶️</p>
+                        </div>
+                    </div>
+                    <div class="dish food-4">
+                        <div class="add"><a href="#">დამატება</a></div>
+                        <div class="img-container">
+                            <img src="./Images/ჩქმერული.jpg" alt="ჩქმერული" />
+                        </div>
+                        <div class="description">
+                            <p class="name">შქმერული</p>
+                            <p class="brief">კატეგორია: 🍶🧅🐓</p>
+                        </div>
+                    </div>
+                    <div class="dish food-5">
+                        <div class="add"><a href="#">დამატება</a></div>
+                        <div class="img-container">
+                            <img
+                                src="./Images/ფხალის ასორტი.jpg"
+                                alt="ფხალის ასორტი"
+                            />
+                        </div>
+                        <div class="description">
+                            <p class="name">ფხალის ასორტი</p>
+                            <p class="brief">კატეგორია: 🌿🥜💚</p>
+                        </div>
+                    </div>
+                    <div class="dish food-6">
+                        <div class="add"><a href="#">დამატება</a></div>
+                        <div class="img-container">
+                            <img src="./Images/ჩაქაფული.jpg" alt="ჩაქაფული" />
+                        </div>
+                        <div class="description">
+                            <p class="name">ჩაქაფული</p>
+                            <p class="brief">კატეგორია: 🥩💚☀️</p>
+                        </div>
+                    </div>
+                    <div class="dish food-7">
+                        <div class="add"><a href="#">დამატება</a></div>
+                        <div class="img-container">
+                            <img src="./Images/კუჭმაჭი.jpg" alt="კუჭმაჭი" />
+                        </div>
+                        <div class="description">
+                            <p class="name">კუჭმაჭი</p>
+                            <p class="brief">კატეგორია: 🥩🥜🌶️</p>
+                        </div>
+                    </div>
+                    <div class="dish food-8">
+                        <div class="add"><a href="#">დამატება</a></div>
+                        <div class="img-container">
+                            <img src="./Images/საცივი.jpg" alt="საცივი" />
+                        </div>
+                        <div class="description">
+                            <p class="name">საცივი</p>
+                            <p class="brief">კატეგორია: 🥜🐓</p>
+                        </div>
+                    </div>
+                    <div class="dish food-9">
+                        <div class="add"><a href="#">დამატება</a></div>
+                        <div class="img-container">
+                            <img src="./Images/ელარჯი.jpg" alt="ელარჯი" />
+                        </div>
+                        <div class="description">
+                            <p class="name">ელარჯი</p>
+                            <p class="brief">კატეგორია: 🍶🌿♨️</p>
+                        </div>
+                    </div>
+                    <div class="dish food-10">
+                        <div class="add"><a href="#">დამატება</a></div>
+                        <div class="img-container">
+                            <img
+                                src="./Images/ლობიო ქოთანში.jpg"
+                                alt="ლობიო ქოთანში"
+                            />
+                        </div>
+                        <div class="description">
+                            <p class="name">ლობიო ქოთანში</p>
+                            <p class="brief">კატეგორია: 🌿🌶️💚</p>
+                        </div>
+                    </div>
+                    <div class="dish food-11">
+                        <div class="add"><a href="#">დამატება</a></div>
+                        <div class="img-container">
+                            <img src="./Images/ოჯახური.jpg" alt="ოჯახური" />
+                        </div>
+                        <div class="description">
+                            <p class="name">ოჯახური</p>
+                            <p class="brief">კატეგორია: 🥩♨️</p>
+                        </div>
+                    </div>
+                    <div class="dish food-12">
+                        <div class="add"><a href="#">დამატება</a></div>
+                        <div class="img-container">
+                            <img src="./Images/ხარჩო.jpg" alt="ხარჩო" />
+                        </div>
+                        <div class="description">
+                            <p class="name">ხარჩო</p>
+                            <p class="brief">კატეგორია: 🥩🌶️♨️🥜</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="lower-nav">
+                <div class="button selected">
+                    <a class="selected" href="#">წასახემსებელი</a>
+                </div>
+                <div class="button unselected">
+                    <a class="unselected" href="#">მთავარი კერძი</a>
+                </div>
+                <div class="button unselected">
+                    <a class="unselected" href="#">სასმელები</a>
+                </div>
+                <div class="button unselected">
+                    <a class="unselected" href="#">დესერტი</a>
+                </div>
+            </div>
+        </footer>
+        <script src="./index.js"></script>
+    </body>
+</html>
